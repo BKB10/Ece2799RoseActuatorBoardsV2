@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "roseActuatorLibrary")(type "KiCad")(uri "${KIPRJMOD}/roseActuatorLibrary.kicad_sym")(options "")(descr ""))
+)
