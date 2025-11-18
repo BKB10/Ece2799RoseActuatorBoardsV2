@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Rose Actuator Library")(type "KiCad")(uri "${KIPRJMOD}/Rose Actuator Library.pretty")(options "")(descr ""))
+  (lib (name "MSPM0C1103SDGS20R")(type "KiCad")(uri "${KIPRJMOD}/MSPM0C1103SDGS20R.pretty")(options "")(descr ""))
+)

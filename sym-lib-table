@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "roseActuatorLibrary")(type "KiCad")(uri "${KIPRJMOD}/roseActuatorLibrary.kicad_sym")(options "")(descr ""))
+  (lib (name "MSPM0C1103SDGS20R")(type "KiCad")(uri "${KIPRJMOD}/MSPM0C1103SDGS20R/MSPM0C1103SDGS20R.kicad_sym")(options "")(descr ""))
 )
