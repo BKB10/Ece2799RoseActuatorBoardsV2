@@ -5267,7 +5267,7 @@
 		)
 	)
 	(sheet
-		(at 193.04 21.59)
+		(at 156.21 132.08)
 		(size 46.99 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5283,7 +5283,7 @@
 		)
 		(uuid "b9481e0d-efbe-4d6e-8635-f6c43dd3cdf3")
 		(property "Sheetname" "Interconnect Board"
-			(at 193.04 20.8784 0)
+			(at 156.21 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5292,7 @@
 			)
 		)
 		(property "Sheetfile" "interconnectBoard.kicad_sch"
-			(at 193.04 43.7646 0)
+			(at 156.21 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
