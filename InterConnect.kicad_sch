@@ -1,0 +1,757 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a8a5ea92-edda-4245-bf8c-de7af2f5bcff")
+	(paper "A4")
+	(title_block
+		(title "Connector")
+		(company "WPI")
+		(comment 1 "ECE 2799 T1")
+		(comment 2 "Rev 1: AAC")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x07"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x07_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 137.16 97.79) (xy 137.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fe9ceb-33a1-46a1-a769-816894d40bb0")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6bb120-1904-48e1-9f7a-4a5bedcb8065")
+	)
+	(wire
+		(pts
+			(xy 115.57 96.52) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed6d4b7-3063-442a-8ce2-e8a623d18dbf")
+	)
+	(wire
+		(pts
+			(xy 115.57 106.68) (xy 168.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20736b65-72c2-4b31-8182-dd0b7afc0091")
+	)
+	(wire
+		(pts
+			(xy 168.91 96.52) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b01f0fa-1f3d-4fb4-bf18-57fbc7cd2134")
+	)
+	(wire
+		(pts
+			(xy 137.16 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b857f8-eeb2-4252-a9ab-58e288736ced")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a02cc6-82f0-4107-adf3-78f518d9924c")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6171227e-1d2e-4e89-aa1f-48cceb8ff739")
+	)
+	(wire
+		(pts
+			(xy 115.57 109.22) (xy 168.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61bc49d1-9362-4fcb-966e-8911143fda59")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a5b562-bb16-47b5-b33d-3aeded4c2f1f")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 168.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5520914-86c6-4822-b661-b77e94c22eee")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 168.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa8ca8e-1566-4aaa-b156-df4d17a8fcda")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0f0b7d-db8e-48c0-b7ba-3ce06eeec816")
+	)
+	(hierarchical_label "nShoutOut1"
+		(shape output)
+		(at 115.57 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a4cfd3f-672f-46b3-9847-f82d116e95d8")
+	)
+	(hierarchical_label "ESP_UART_TX"
+		(shape output)
+		(at 115.57 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40b1d8c5-220a-4d69-ad3e-7dc17e0c5a50")
+	)
+	(hierarchical_label "nShoutIn1"
+		(shape input)
+		(at 168.91 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e52723c-4614-4aef-9631-3e3a1273459c")
+	)
+	(hierarchical_label "3.3V"
+		(shape bidirectional)
+		(at 115.57 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "779bbc3b-0585-4346-8cbb-4524d9e1e2d2")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 115.57 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ff2e5b2-9aab-4f82-8a2a-fba9c715b9af")
+	)
+	(hierarchical_label "3.3V"
+		(shape bidirectional)
+		(at 168.91 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81782dfb-b47e-4813-a0f6-139d4ecf73ec")
+	)
+	(hierarchical_label "5V"
+		(shape bidirectional)
+		(at 168.91 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8608c2a9-18ea-4fe2-9d31-b76ba25a4a6e")
+	)
+	(hierarchical_label "nShoutIn2"
+		(shape input)
+		(at 115.57 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9181dbe5-741b-4f27-8b9b-5fab16097688")
+	)
+	(hierarchical_label "ESP_UART_RX"
+		(shape input)
+		(at 115.57 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95d7e76d-29cc-4589-8180-ce7b4018348a")
+	)
+	(hierarchical_label "5V"
+		(shape bidirectional)
+		(at 115.57 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ca1faaa-ee3a-4279-9155-d23b01ea72a9")
+	)
+	(hierarchical_label "ESP_UART_RX"
+		(shape input)
+		(at 168.91 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a691e7e1-417e-4e62-9df4-917d741f84d8")
+	)
+	(hierarchical_label "ESP_UART_TX"
+		(shape output)
+		(at 168.91 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b000123e-10f1-4d82-a5f4-1a1879981a25")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 168.91 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9ed42fe-1db9-4015-a6a9-cca74f70f81a")
+	)
+	(hierarchical_label "nShoutOut2"
+		(shape output)
+		(at 168.91 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7d6dda6-b74a-4dab-bc6b-5ed8aab86cdc")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 120.65 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07010751-d431-415c-83ea-632ad8bc0711")
+		(property "Reference" "J5"
+			(at 123.19 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5x2.54mm+2xBus"
+			(at 123.19 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 120.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbfbe8d0-2989-4520-924c-4fef328ae94f")
+		)
+		(pin "4"
+			(uuid "e183c2fc-5093-4798-93df-eb08fa756b1e")
+		)
+		(pin "3"
+			(uuid "205a458f-889a-4803-acad-b89383cef6cc")
+		)
+		(pin "5"
+			(uuid "b0bdc6a3-eee4-4f45-b5ea-783594711f8d")
+		)
+		(pin "2"
+			(uuid "6a727480-6059-4b01-9565-b8c39902f066")
+		)
+		(pin "7"
+			(uuid "81ff0ad9-9ec3-4186-b83a-df6c95c2b9f7")
+		)
+		(pin "6"
+			(uuid "c298859d-8b3c-4be6-b37d-2bbf4f542e7a")
+		)
+		(instances
+			(project "ECE 2799 Rose Actuator Boards V2"
+				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/59bd2b5d-42f3-4e2d-adcb-a95765ebc7bc"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 163.83 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b7270a-4374-47ac-8651-96a78f8ada8f")
+		(property "Reference" "J12"
+			(at 161.29 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5x2.54mm+2xBus"
+			(at 161.29 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48063234-ddb6-4004-8bb3-e67505150151")
+		)
+		(pin "4"
+			(uuid "94fb2376-1ee6-4510-8d47-4a449d508814")
+		)
+		(pin "3"
+			(uuid "e57f55fd-e266-4636-a0c7-07999c7310a7")
+		)
+		(pin "5"
+			(uuid "1e221e4d-3264-40d2-b373-b68294dbde8f")
+		)
+		(pin "2"
+			(uuid "322e6435-5407-4409-8d0d-236e29c6ecc1")
+		)
+		(pin "7"
+			(uuid "4f4d3f01-bb58-4588-88bb-ce21fcd6f551")
+		)
+		(pin "6"
+			(uuid "d7ff66cf-2185-4968-975a-f6e9f0812c6a")
+		)
+		(instances
+			(project "ECE 2799 Rose Actuator Boards V2"
+				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/59bd2b5d-42f3-4e2d-adcb-a95765ebc7bc"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
