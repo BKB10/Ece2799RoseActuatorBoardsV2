@@ -593,7 +593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07010751-d431-415c-83ea-632ad8bc0711")
-		(property "Reference" "J5"
+		(property "Reference" "J13"
 			(at 123.19 100.3299 0)
 			(effects
 				(font
@@ -662,7 +662,7 @@
 		(instances
 			(project "ECE 2799 Rose Actuator Boards V2"
 				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/59bd2b5d-42f3-4e2d-adcb-a95765ebc7bc"
-					(reference "J5")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -679,7 +679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b7270a-4374-47ac-8651-96a78f8ada8f")
-		(property "Reference" "J12"
+		(property "Reference" "J14"
 			(at 161.29 100.3299 0)
 			(effects
 				(font
@@ -748,7 +748,7 @@
 		(instances
 			(project "ECE 2799 Rose Actuator Boards V2"
 				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/59bd2b5d-42f3-4e2d-adcb-a95765ebc7bc"
-					(reference "J12")
+					(reference "J14")
 					(unit 1)
 				)
 			)
