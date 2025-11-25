@@ -1,4 +1,4 @@
-25010344944599248
+25019165431831031
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -37183,6 +37183,20 @@ Surface mounted pin header SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_PinHeader_2.54mm
+Untitled
+
+
+0
+0
+0
+Connector_PinHeader_2.54mm
+Untitled_1
+
+
+0
+0
+0
 Connector_PinSocket_1.00mm
 PinSocket_1x02_P1.00mm_Vertical
 Through hole straight socket strip, 1x02, 1.00mm pitch, single row (https://gct.co/files/drawings/bc065.pdf), script generated
@@ -91532,19 +91546,40 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 2
 2
 Rose Actuator Library
+DIP254P762X508-14
+
+
+0
+14
+14
+Rose Actuator Library
+InterModuleConnectorMside
+
+
+0
+9
+7
+Rose Actuator Library
+LED_FZ2812-5050
+
+
+0
+4
+4
+Rose Actuator Library
+MODULE_ESP32-C6-DEVKITC-1-N8
+
+
+0
+32
+32
+Rose Actuator Library
 MSPM0C1103SDGS20R
 DGS0020A
 Integrated Circuit
 0
 20
 20
-Rose Actuator Library
-Untitled
-
-
-0
-0
-0
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
