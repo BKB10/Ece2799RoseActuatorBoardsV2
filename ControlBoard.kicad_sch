@@ -2836,12 +2836,6 @@
 		(uuid "a0dd8e0a-5ac3-42db-bc25-4a514641a33c")
 	)
 	(junction
-		(at 59.69 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bbcdaf4-b7bf-4424-b3f2-0f20a4bb46ed")
-	)
-	(junction
 		(at 50.8 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2858,6 +2852,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da855b1a-671b-4dbe-a03e-8ec1e4e4d4b4")
+	)
+	(junction
+		(at 34.29 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5567542-1cc5-4769-9ebb-0e9a42c741f6")
 	)
 	(no_connect
 		(at 129.54 62.23)
@@ -2882,10 +2882,6 @@
 	(no_connect
 		(at 129.54 59.69)
 		(uuid "59d59936-f3cf-4cd4-a787-3098aebdd3fe")
-	)
-	(no_connect
-		(at 45.72 82.55)
-		(uuid "5fe41c43-1fec-4bca-a45f-bb55ff6f9839")
 	)
 	(no_connect
 		(at 129.54 64.77)
@@ -2940,6 +2936,10 @@
 		(uuid "db76cbeb-f2b4-48b4-9916-017da6905a3f")
 	)
 	(no_connect
+		(at 36.83 82.55)
+		(uuid "e530a1b1-34a4-4801-8e4b-2f696990ca0e")
+	)
+	(no_connect
 		(at 129.54 74.93)
 		(uuid "f838afe0-d245-43f6-a2bd-6b1c0e351387")
 	)
@@ -2966,6 +2966,26 @@
 			(type default)
 		)
 		(uuid "1388e957-5cd8-4be7-9709-c494d793532d")
+	)
+	(wire
+		(pts
+			(xy 34.29 123.19) (xy 34.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164c582e-2125-4926-a9b7-ef8672dfd44c")
+	)
+	(wire
+		(pts
+			(xy 34.29 111.76) (xy 34.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1971496d-1ee3-4666-82b2-3705e889e25b")
 	)
 	(wire
 		(pts
@@ -3019,23 +3039,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 59.69 100.33)
+			(xy 36.83 80.01) (xy 54.61 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "247fd9d1-1eec-4626-a610-116b42c7c4cd")
-	)
-	(wire
-		(pts
-			(xy 52.07 100.33) (xy 59.69 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2abe2555-097f-4288-8c0c-4192d3e4de63")
+		(uuid "214668ed-1ada-49bf-9792-e22996f738d3")
 	)
 	(wire
 		(pts
@@ -3079,6 +3089,26 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 85.09) (xy 44.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45af7653-1b63-4fe0-a1a0-4f6f0d40b82d")
+	)
+	(wire
+		(pts
+			(xy 46.99 110.49) (xy 46.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d06056-34b0-4be0-a011-0726cdd181c8")
+	)
+	(wire
+		(pts
 			(xy 52.07 91.44) (xy 67.31 91.44)
 		)
 		(stroke
@@ -3106,6 +3136,16 @@
 			(type default)
 		)
 		(uuid "64f8a60b-13e0-4ba3-95b9-7bb2e201a117")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 55.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6786131f-cde0-4e15-87dc-41260f430cd7")
 	)
 	(wire
 		(pts
@@ -3139,6 +3179,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 97.79) (xy 34.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80038860-c2c1-49f0-a0d9-51830bfb8907")
+	)
+	(wire
+		(pts
 			(xy 52.07 85.09) (xy 52.07 91.44)
 		)
 		(stroke
@@ -3146,16 +3196,6 @@
 			(type default)
 		)
 		(uuid "88d929a1-5a59-45a0-9941-4a73e7844cf9")
-	)
-	(wire
-		(pts
-			(xy 45.72 80.01) (xy 54.61 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb86aa7-eb18-4685-8d08-b5a0a341e8fb")
 	)
 	(wire
 		(pts
@@ -3239,6 +3279,36 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 90.17) (xy 59.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9744f92-6089-48a5-839f-6cd8b3e9bafb")
+	)
+	(wire
+		(pts
+			(xy 34.29 107.95) (xy 34.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c3aef2-71c4-4f3e-92eb-df1459949c02")
+	)
+	(wire
+		(pts
+			(xy 52.07 106.68) (xy 55.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c57945-5fbb-4ee5-b2fc-646cf0f90fff")
+	)
+	(wire
+		(pts
 			(xy 46.99 34.29) (xy 31.75 34.29)
 		)
 		(stroke
@@ -3269,6 +3339,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 85.09) (xy 44.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d24cef-01e1-483e-aeb7-38137dc18f2d")
+	)
+	(wire
+		(pts
 			(xy 115.57 92.71) (xy 129.54 92.71)
 		)
 		(stroke
@@ -3276,6 +3356,16 @@
 			(type default)
 		)
 		(uuid "cbb2e7f4-caed-458b-bceb-c95c9ea3f156")
+	)
+	(wire
+		(pts
+			(xy 34.29 111.76) (xy 46.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53df1dc-4a5c-4cbf-96f9-9f6ffe1291ae")
 	)
 	(wire
 		(pts
@@ -3296,6 +3386,16 @@
 			(type default)
 		)
 		(uuid "e91f3181-afe1-4c3e-bc13-43fcf067baa0")
+	)
+	(wire
+		(pts
+			(xy 52.07 100.33) (xy 52.07 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4bf138-d017-4176-b236-464b6206d8a1")
 	)
 	(wire
 		(pts
@@ -3447,17 +3547,16 @@
 		(uuid "e10e533f-cf4e-4842-b3a6-7589043ddd32")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 45.72 85.09 0)
+		(lib_id "power:+3.3V")
+		(at 46.99 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07a4f521-7801-430b-9619-dde52a0f1a5e")
-		(property "Reference" "#PWR037"
-			(at 45.72 91.44 0)
+		(uuid "058c1f2c-6dce-4704-b01a-3a4420926d4d")
+		(property "Reference" "#PWR032"
+			(at 46.99 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,8 +3564,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 45.72 90.17 0)
+		(property "Value" "+1.65V"
+			(at 46.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 85.09 0)
+			(at 46.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +3582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 85.09 0)
+			(at 46.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,8 +3590,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 85.09 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,12 +3600,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba22b60a-2b4a-49af-8388-a714004f0763")
+			(uuid "e2ed713f-d547-4c7b-b779-ffcb9b7049bc")
 		)
 		(instances
 			(project "ECE 2799 Rose Actuator Boards V2"
 				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
-					(reference "#PWR037")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3578,6 +3677,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 55.88 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21a5e189-1757-45b1-bbc3-1ca78fddc6e6")
+		(property "Reference" "#PWR037"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.65V"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b22c789c-7789-4c53-9d23-6db9a868f266")
+		)
+		(instances
+			(project "ECE 2799 Rose Actuator Boards V2"
+				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 115.57 90.17 0)
 		(unit 1)
@@ -3638,6 +3802,77 @@
 			(project "ECE 2799 Rose Actuator Boards V2"
 				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 31.75 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29586b06-a308-49a4-b717-c1cb219c64eb")
+		(property "Reference" "J12"
+			(at 29.845 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 29.845 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "fa958fc7-3731-43bf-a05f-4b6ba3fdb6a9")
+		)
+		(pin "R"
+			(uuid "41f70863-5fb7-4b1f-aaeb-176c49e589cf")
+		)
+		(pin "S"
+			(uuid "9b570263-ce66-47db-8506-36d7c98bc12e")
+		)
+		(instances
+			(project "ECE 2799 Rose Actuator Boards V2"
+				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -3947,6 +4182,76 @@
 			(project "ECE 2799 Rose Actuator Boards V2"
 				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 34.29 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "506f9a00-b46e-4375-93ef-67ac5739efd6")
+		(property "Reference" "R6"
+			(at 36.83 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "40k"
+			(at 36.83 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.306 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 34.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afc99b25-5379-4d2f-bb59-d6bf1e811765")
+		)
+		(pin "2"
+			(uuid "2b7da038-71fc-4648-afc3-b9832715ceae")
+		)
+		(instances
+			(project "ECE 2799 Rose Actuator Boards V2"
+				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4710,25 +5015,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 40.64 82.55 0)
+		(lib_id "power:+3.3V")
+		(at 44.45 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7a045b7-5158-4a5f-a09d-40fdb9d46efc")
-		(property "Reference" "J15"
-			(at 38.735 73.66 0)
+		(uuid "a2b4e68b-4f90-45f2-bb53-fb1930a5c65f")
+		(property "Reference" "#PWR035"
+			(at 44.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "AudioJack3"
-			(at 38.735 76.2 0)
+		(property "Value" "+1.65V"
+			(at 44.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,79 +5041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 40.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "T"
-			(uuid "08be4313-5dac-489e-a618-60a1f0cd9c2d")
-		)
-		(pin "R"
-			(uuid "15b625e9-5aa5-48fc-8c2d-b1afbaeaa209")
-		)
-		(pin "S"
-			(uuid "b9ba538c-323d-4595-ab39-80a8ceee07d8")
-		)
-		(instances
-			(project "ECE 2799 Rose Actuator Boards V2"
-				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b795e1dd-5467-4037-9991-cb72956cb62c")
-		(property "Reference" "#PWR038"
-			(at 59.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 100.33 0)
+			(at 44.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +5050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 100.33 0)
+			(at 44.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,8 +5058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 100.33 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 44.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,12 +5068,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a668f02-5bcd-4b1e-b219-c31e30b740ab")
+			(uuid "0c87ca28-8705-4564-8e3d-b5d376b99fbe")
 		)
 		(instances
 			(project "ECE 2799 Rose Actuator Boards V2"
 				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
-					(reference "#PWR038")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b62b5e54-8aab-45bf-8261-26a4ad1e9724")
+		(property "Reference" "#PWR028"
+			(at 34.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf2c057-50d2-4278-ba19-4f16a270a0c0")
+		)
+		(instances
+			(project "ECE 2799 Rose Actuator Boards V2"
+				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5385,6 +5684,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 59.69 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d67cad6c-4f67-457c-be65-51ca8308bc09")
+		(property "Reference" "#PWR036"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de9a8dbc-fa67-4660-a025-01e6549441ae")
+		)
+		(instances
+			(project "ECE 2799 Rose Actuator Boards V2"
+				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 52.07 96.52 0)
 		(unit 1)
@@ -5403,7 +5768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "50"
 			(at 54.61 97.7899 0)
 			(effects
 				(font
@@ -5449,6 +5814,141 @@
 			(project "ECE 2799 Rose Actuator Boards V2"
 				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 34.29 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db39b69f-9e79-48d0-b86c-3f6e8dd11e7f")
+		(property "Reference" "#PWR026"
+			(at 34.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c5656f1-9534-4df3-bb21-878d27a2bb48")
+		)
+		(instances
+			(project "ECE 2799 Rose Actuator Boards V2"
+				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 34.29 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbb73c25-0c3b-4c78-bf67-b077a3a9c019")
+		(property "Reference" "R4"
+			(at 36.83 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "40k"
+			(at 36.83 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.306 104.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 34.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bc2f9ae-8565-4f8e-8055-740fec19b3d9")
+		)
+		(pin "2"
+			(uuid "1f788b69-880c-431b-9bae-8ad08536ece4")
+		)
+		(instances
+			(project "ECE 2799 Rose Actuator Boards V2"
+				(path "/7b54b20f-95ea-471b-884f-de37eca32e63/680dcb38-59ad-40f5-9cf6-60f2a89c70fa"
+					(reference "R4")
 					(unit 1)
 				)
 			)
