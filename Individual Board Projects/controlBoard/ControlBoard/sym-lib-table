@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Rosethings")(type "KiCad")(uri "${KIPRJMOD}/Rosethings.kicad_sym")(options "")(descr ""))
+)
