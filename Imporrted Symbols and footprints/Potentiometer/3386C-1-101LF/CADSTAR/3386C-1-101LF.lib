@@ -1,0 +1,16 @@
+.3386C-1-101LF :1 ;100 Ohms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Side Adjustment 500 VDC,900 VAC,-55 C to +125 C
+"3386C1101LF"
+*STM VR
+*NGS
+*PLB 1="CCW" 2="WIPER" 3="CW"
+*MXP 3
+*DFN 3386C-1-101LF
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (3386C-1-101LF)
+~!Link Datasheet (https://www.bourns.com/docs/Product-Datasheets/3386.pdf)
+~!Height (9.78mm)
+~!3D_Model (3386C-1-101LF)
+"3386C-1-101LF"
+1.1!U 2.1!U 3.1!U 

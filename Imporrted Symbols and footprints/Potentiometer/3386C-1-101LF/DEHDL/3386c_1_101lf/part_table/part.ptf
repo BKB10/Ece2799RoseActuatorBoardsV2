@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '3386C_1_101LF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "3386C-1-101LF" (!) = "", "3386C1101LF", "Other", "", "", "100 Ohms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Side Adjustment 500 VDC,900 VAC,-55 C to +125 C", "https://www.bourns.com/docs/Product-Datasheets/3386.pdf", "9.78 mm"
+END_PART
+
+END.

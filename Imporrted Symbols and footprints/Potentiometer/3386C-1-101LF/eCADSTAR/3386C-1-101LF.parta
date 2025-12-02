@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1158842"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-06-27-05:07:57)
+    (utime 2025-06-27-05:07:57)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "3386C-1-101LF")
+)
+
+
+(pinAssign "ECS_1158842"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-06-27-05:07:57)
+    (utime 2025-06-27-05:07:57)
+    (interface
+        (port "1" (symbPinId 1) (portName "CCW") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "WIPER") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CW") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1158842")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "3386C-1-101LF")
+)
+
+
+(part "3386C-1-101LF"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-06-27-05:07:57)
+    (utime 2025-06-27-05:07:57)
+    (packageRef "3386C-1-101LF")
+    (pinAssignRef "ECS_1158842")
+    (interface
+        (port "1" (symbPinId 1) (portName "CCW") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "WIPER") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "CW") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "VR")
+    (property "description" "100 Ohms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Side Adjustment 500 VDC,900 VAC,-55 C to +125 C")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "3386C-1-101LF")
+    (property "Datasheet_Link" "https://www.bourns.com/docs/Product-Datasheets/3386.pdf")
+    (property "compAreaTopHeight" 9.78)
+)
+
+

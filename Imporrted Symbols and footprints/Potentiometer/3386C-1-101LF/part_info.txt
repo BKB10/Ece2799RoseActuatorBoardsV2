@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=3386C-1-101LF
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.3
+Released=2025-06-27 05:07:57
+Downloaded=2025-12-02 05:47:18
+3D=Y
