@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USBC-PD and Buck Footprint")(type "KiCad")(uri "${KIPRJMOD}/USBC-PD and Buck Footprint.pretty")(options "")(descr ""))
+  (lib (name "BUCK_and_USBC")(type "KiCad")(uri "${KIPRJMOD}/BUCK_and_USBC.pretty")(options "")(descr ""))
+)
