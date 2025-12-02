@@ -3297,6 +3297,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 49.53) (xy 54.61 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebefb88-a418-4c5c-94d5-bbc5c15b655e")
+	)
+	(wire
+		(pts
 			(xy 243.84 102.87) (xy 254 102.87)
 		)
 		(stroke
@@ -3334,6 +3344,16 @@
 			(type default)
 		)
 		(uuid "3d10a5c0-b21a-4295-94b0-f3a8d724a232")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5e89d5-1deb-4667-85f8-e5b390a5763e")
 	)
 	(wire
 		(pts
@@ -3387,6 +3407,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 57.15) (xy 107.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5015e812-c274-48fa-9d6f-59d5001f4fbb")
+	)
+	(wire
+		(pts
 			(xy 58.42 80.01) (xy 67.31 80.01)
 		)
 		(stroke
@@ -3434,16 +3464,6 @@
 			(type default)
 		)
 		(uuid "5d000dff-4489-477d-bfe2-31a06b03fc4d")
-	)
-	(wire
-		(pts
-			(xy 93.98 49.53) (xy 90.17 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea80056-d093-47ec-b895-97a0871e1472")
 	)
 	(wire
 		(pts
@@ -3514,6 +3534,16 @@
 			(type default)
 		)
 		(uuid "71efaf3d-bdbc-4a66-8acb-a1ff82ff4fa7")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 96.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e569f5b-327f-4056-bee2-3b1e9dcb7265")
 	)
 	(wire
 		(pts
@@ -3607,16 +3637,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 49.53) (xy 39.37 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3d01985-56a5-47ec-92b3-6a4c3cbc8c61")
-	)
-	(wire
-		(pts
 			(xy 121.92 72.39) (xy 121.92 67.31)
 		)
 		(stroke
@@ -3654,6 +3674,16 @@
 			(type default)
 		)
 		(uuid "d4bba239-d5fe-414d-b2fe-d494274eff24")
+	)
+	(wire
+		(pts
+			(xy 100.33 48.26) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f8b453-c87f-4ea2-918d-5a7d3e5b78ba")
 	)
 	(wire
 		(pts
@@ -3724,6 +3754,16 @@
 			(type default)
 		)
 		(uuid "e7ebdccd-7e90-4188-b90a-bc4e0a36c4ae")
+	)
+	(wire
+		(pts
+			(xy 96.52 49.53) (xy 96.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e982d24f-92dc-4ea6-860d-2fc520122e57")
 	)
 	(wire
 		(pts
@@ -4622,7 +4662,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 93.98 49.53 0)
+		(at 107.95 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4631,7 +4671,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e99711d-7592-4b66-bf7d-c3def297e6ed")
 		(property "Reference" "#PWR0109"
-			(at 93.98 53.34 0)
+			(at 107.95 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4680,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 93.98 44.45 0)
+			(at 107.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 49.53 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 49.53 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 93.98 49.53 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BUCK_and_USBC:Potentiometer"
 			(at 105.41 105.41 0)
 			(effects
 				(font
@@ -6433,7 +6473,7 @@
 	)
 	(symbol
 		(lib_id "Rosethings:01000020Z")
-		(at 91.44 71.12 0)
+		(at 100.33 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6442,7 +6482,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4e6f025-e77e-4a6a-b630-e4bf3428d9a9")
 		(property "Reference" "U2"
-			(at 107.95 71.1199 0)
+			(at 116.84 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +6491,7 @@
 			)
 		)
 		(property "Value" "01000020Z"
-			(at 107.95 73.6599 0)
+			(at 116.84 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,8 +6499,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "01000020Z"
-			(at 107.95 166.04 0)
+		(property "Footprint" "BUCK_and_USBC:01000020Z"
+			(at 116.84 140.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,7 +6510,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/01000020Z.pdf"
-			(at 107.95 266.04 0)
+			(at 116.84 240.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6480,7 +6520,7 @@
 			)
 		)
 		(property "Description" "Littelfuse Fuse Holder Clip"
-			(at 91.44 71.12 0)
+			(at 100.33 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6489,7 +6529,7 @@
 			)
 		)
 		(property "Height" "10.7"
-			(at 107.95 466.04 0)
+			(at 116.84 440.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,7 +6539,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-01000020Z"
-			(at 107.95 566.04 0)
+			(at 116.84 540.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6549,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/01000020Z?qs=A2K%252BDn3pTTkC2o2QQivHQg%3D%3D"
-			(at 107.95 666.04 0)
+			(at 116.84 640.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +6559,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 107.95 766.04 0)
+			(at 116.84 740.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,7 +6569,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "01000020Z"
-			(at 107.95 866.04 0)
+			(at 116.84 840.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
