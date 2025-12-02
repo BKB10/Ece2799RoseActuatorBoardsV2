@@ -45,7 +45,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_57555555)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -55,7 +55,7 @@
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
-			(plotframeref no)
+			(plotframeref yes)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -79,9 +79,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../../GERBER OUTPUT FILES FOR PRODUCTION/INTERCONNECT/")
 		)
 	)
 	(net 0 "")
@@ -1655,14 +1655,14 @@
 		(uuid "e63a06e8-0f84-4356-a377-84ff9d8c317e")
 	)
 	(gr_line
-		(start 122.47 85.1)
+		(start 122.45 85.1)
 		(end 136.95 85.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "07781dc4-ff92-40f2-a15f-2984dc989fc5")
+		(uuid "0619dec3-214a-492c-8a06-e06194b4d522")
 	)
 	(gr_line
 		(start 136.95 85.1)
@@ -1694,6 +1694,36 @@
 		(layer "Edge.Cuts")
 		(uuid "97d7360f-9a25-4a4c-a0d9-f855faf972d4")
 	)
+	(gr_line
+		(start 136.95 85.1)
+		(end 136.53 115.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bfb40ecd-2ee9-470f-9246-ab89536d0cfa")
+	)
+	(gr_line
+		(start 122.94 115.1)
+		(end 122.45 85.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fba04faa-0611-49a5-81e7-aa057e8528e5")
+	)
+	(gr_line
+		(start 122.94 115.1)
+		(end 136.53 115.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fffd0950-80e9-4b8a-aabb-77b822c8d476")
+	)
 	(gr_text "G"
 		(at 128.79 112.5 0)
 		(layer "F.Cu")
@@ -1708,7 +1738,7 @@
 		)
 	)
 	(gr_text "G"
-		(at 130.74 112.5 0)
+		(at 130.61 112.15 0)
 		(layer "B.Cu")
 		(uuid "0f61f487-1f80-4556-a963-76f8380cc3d4")
 		(effects

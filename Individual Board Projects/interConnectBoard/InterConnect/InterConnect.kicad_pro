@@ -501,7 +501,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../GERBER OUTPUT FILES FOR PRODUCTION/INTERCONNECT/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

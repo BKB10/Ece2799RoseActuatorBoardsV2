@@ -511,7 +511,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../GERBER OUTPUT FILES FOR PRODUCTION/MODULE/",
       "pos_files": "",
       "specctra_dsn": "ModuleBoard.dsn",
       "step": "",
