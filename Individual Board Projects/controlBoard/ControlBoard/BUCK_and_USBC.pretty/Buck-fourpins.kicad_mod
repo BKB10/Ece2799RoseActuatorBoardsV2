@@ -7,6 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "fea2ca0c-51c3-4efa-97d4-d23ae0599333")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ab8370fd-fda5-4fc8-bfd0-e02cb8d82bbe")
 		(effects
 			(font
@@ -55,10 +57,10 @@
 	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at -2.61 4.04 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "611362ce-77af-4992-9d09-ad45a7d72995")
+		(uuid "2e7da7f3-98e8-4ce6-b476-7897ef9d2990")
 		(effects
 			(font
 				(size 1 1)
@@ -66,37 +68,49 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at -4 0)
-		(size 2.5 2.5)
-		(drill 1)
+	(pad "1" thru_hole roundrect
+		(at -2.5 -3.25 180)
+		(size 10 5)
+		(drill 3
+			(offset 5 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "30c91cf4-d8a0-4e5c-923c-bc5cd56ef42c")
+		(roundrect_rratio 0.1)
+		(uuid "1b0eeacb-417c-4241-b313-fb85c66691c6")
 	)
-	(pad "2" thru_hole circle
-		(at 0 0)
-		(size 2.5 2.5)
-		(drill 1)
+	(pad "2" thru_hole roundrect
+		(at -2.5 3.25 180)
+		(size 10 5)
+		(drill 3
+			(offset 5 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e65dfa24-b9f9-444c-9f8a-656e75936bc3")
+		(roundrect_rratio 0.1)
+		(uuid "a005ba2d-3187-487e-bf3f-f1a2392d337d")
 	)
-	(pad "3" thru_hole circle
-		(at 4 0)
-		(size 2.5 2.5)
-		(drill 1)
+	(pad "3" thru_hole roundrect
+		(at 2.5 3.25)
+		(size 10 5)
+		(drill 3
+			(offset 5 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d752cf5c-5bf9-4b4b-8e27-23a69f9d430d")
+		(roundrect_rratio 0.1)
+		(uuid "82b47341-c082-44bc-971c-1f2d1aa14895")
 	)
-	(pad "4" thru_hole circle
-		(at 8 0)
-		(size 2.5 2.5)
-		(drill 1)
+	(pad "4" thru_hole roundrect
+		(at 2.5 -3.25 270)
+		(size 10 5)
+		(drill 3
+			(offset -5 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ee6ec973-43c5-4e28-8405-7d5b23c50a76")
+		(roundrect_rratio 0.1)
+		(uuid "36e4fc28-f754-4628-9fde-1e8c51b9dcef")
 	)
 	(embedded_fonts no)
 )

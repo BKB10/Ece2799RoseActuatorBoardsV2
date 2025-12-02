@@ -57,6 +57,18 @@
 	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
+		(at -10.26 8.99 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7df56158-24fb-41a3-9a13-31605ce8b797")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -68,21 +80,27 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at -4 0)
-		(size 2.5 2.5)
-		(drill 1)
+	(pad "1" thru_hole roundrect
+		(at -10 -3.25)
+		(size 10 5)
+		(drill 3
+			(offset 5 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5d7879b5-a766-467c-a507-248b6e578ed9")
+		(roundrect_rratio 0.1)
+		(uuid "d21c4eb1-d43b-4d92-981f-1629e2e2e563")
 	)
-	(pad "2" thru_hole circle
-		(at 0 0)
-		(size 2.5 2.5)
-		(drill 1)
+	(pad "2" thru_hole roundrect
+		(at -10 3.25)
+		(size 10 5)
+		(drill 3
+			(offset 5 0)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "063517cd-caa1-45a1-be80-1190a9d6e541")
+		(roundrect_rratio 0.1)
+		(uuid "6a40b638-5158-45ad-967c-cd265b5ef245")
 	)
 	(embedded_fonts no)
 )

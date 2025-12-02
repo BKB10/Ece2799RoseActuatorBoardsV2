@@ -1655,17 +1655,7 @@
 		(uuid "e63a06e8-0f84-4356-a377-84ff9d8c317e")
 	)
 	(gr_line
-		(start 122.45 85.1)
-		(end 136.95 85.1)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "0619dec3-214a-492c-8a06-e06194b4d522")
-	)
-	(gr_line
-		(start 136.95 85.1)
+		(start 136.95 85.04)
 		(end 136.53 115.1)
 		(stroke
 			(width 0.05)
@@ -1675,34 +1665,44 @@
 		(uuid "3c1924fb-2e9f-429c-8845-308fbfb36506")
 	)
 	(gr_line
-		(start 136.53 115.1)
-		(end 122.94 115.1)
+		(start 122.44902 85.04)
+		(end 122.45 85.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6674fb5d-21f9-48b6-9b14-d38e79b40595")
+		(uuid "adfb2f19-6205-4986-bf20-37a9e4f88302")
 	)
 	(gr_line
-		(start 122.94 115.1)
-		(end 122.47 85.1)
+		(start 125.46 85.04)
+		(end 136.95 85.04)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "97d7360f-9a25-4a4c-a0d9-f855faf972d4")
+		(uuid "d77a28b0-9ccd-4aa8-892b-e4ac57cd7f3b")
 	)
 	(gr_line
-		(start 136.95 85.1)
-		(end 136.53 115.1)
+		(start 125.46 85.04)
+		(end 124 85.04)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "bfb40ecd-2ee9-470f-9246-ab89536d0cfa")
+		(uuid "d942485b-dc57-4b7a-ab1e-cb01a04a9304")
+	)
+	(gr_line
+		(start 124 85.04)
+		(end 122.44902 85.04)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dad58c61-e2fb-41d7-b831-7f24a735dd0a")
 	)
 	(gr_line
 		(start 122.94 115.1)
@@ -1748,6 +1748,44 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Eco2.User")
+		(uuid "30a7df74-17f3-4b86-95d4-d4a872a54e35")
+		(pts
+			(xy 125.96 86.82) (xy 125.96 84.31)
+		)
+		(height -20.14)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2.51"
+			(at 104.67 85.565 90)
+			(layer "Eco2.User")
+			(uuid "30a7df74-17f3-4b86-95d4-d4a872a54e35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
